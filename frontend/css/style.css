@@ -1,0 +1,140 @@
+#logo{
+    height: 56px;
+    width: auto;
+    position: relative;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../../images/backgrounds/bold-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fig1>figcaption{
+    color: azure;
+    font-size: large;
+    float: right;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.nav-links{
+    text-decoration: none;
+    color: #4a2a05;
+    padding: 10px 20px;
+    border: 2px solid #c27c0e;
+    border-radius: 50px;
+    background-image: url(../../images/backgrounds/nav-button-background.png);
+    background-size: cover;
+    transition: 120ms;
+    display: inline-block;
+    margin: 5px 5px;
+}
+.nav-links:hover{
+    transform: scale(1.1);
+}
+body{
+    background-image: url(../../images/backgrounds/body-bg.jpg);
+    background-repeat:no-repeat;
+    margin: 0;
+    background-size: cover;
+}
+h2{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#p{
+font-style: oblique;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#next{
+    font-weight: bold;
+}
+#what{
+    border: 3px solid #2f6b3a;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #2f6b3a;
+}
+#face{
+    border: 3px solid #2b4a7a;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #2b4a7a;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#insta{
+    border: 3px solid #a8325e;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #a8325e;
+}
+#info{
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px 0;
+}
+footer a {
+    color: #3b2a0a; 
+    text-decoration: none; 
+    font-weight: bold;
+}
+.prodect{
+    text-align: center;
+    width: 300px;
+    border-radius: 20px;
+    background-image: url(../../images/backgrounds/card-background.png);
+    background-size: cover;
+}
+main{
+    padding: 0 40px;
+}
+#prodects{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 10px;
+}
+#bottleround{
+    object-position: 30%;
+}
+.honeybottleimgs{
+    height: 152px;
+    width: 150px;
+    object-fit: cover;
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.link-order{
+    border: 2px solid #e0a030;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #ffe9a8;
+    background-image: url(../../images/backgrounds/order-button-background.png);
+    background-size: cover;
+    margin-bottom: 10px;
+    transition: 150ms;
+}
+.link-order:hover{
+    transform: scale(1.1);
+}
