@@ -51,34 +51,36 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 #next{
     font-weight: bold;
 }
-#what{
-    border: 3px solid #2f6b3a;
-    border-radius: 20px;
-    padding: 10px 20px;
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    background-color: #2f6b3a;
+.social-media {
+  display: inline-block;
+  margin: 5px;
+  border-radius: 50%;
+  line-height: 0;
+  transition:
+    box-shadow 0.3s,
+    transform 0.3s;
 }
-#face{
-    border: 3px solid #2b4a7a;
-    border-radius: 20px;
-    padding: 10px 20px;
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    background-color: #2b4a7a;
-    margin-right: 20px;
-    margin-left: 20px;
+.social-media img {
+  height: 50px;
+  display: block;
 }
-#insta{
-    border: 3px solid #a8325e;
-    border-radius: 20px;
-    padding: 10px 20px;
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    background-color: #a8325e;
+#whatsapp:hover {
+  box-shadow:
+    0 0 10px #6b8e23,
+    0 0 25px #6b8e23;
+}
+#facebook:hover {
+  box-shadow:
+    0 0 10px #5c3317,
+    0 0 25px #5c3317;
+}
+#instagram:hover {
+  box-shadow:
+    0 0 10px #c1502e,
+    0 0 25px #c1502e;
+}
+.social-media:hover {
+  transform: scale(1.1);
 }
 #info{
     font-style: italic;
